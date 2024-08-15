@@ -179,7 +179,7 @@ body{
 }
 
 .grid-container{
-    padding-top: 15px;
+    padding-top: 10px;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;  
     margin-left: 200px;
