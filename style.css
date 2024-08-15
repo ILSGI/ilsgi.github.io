@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Fugaz+One&display=swap');
+    font-family: "Fugaz One", sans-serif;
+
+}
+header{
+    height: 70px;
+    background-color: #FF914D;
+}
+#fundomain {
+    width: 100%;
+    background-repeat: cover;
+    position: absolute;
+    z-index: -99;
+    object-fit: cover;
+}
+
+#headerlist{
+    display: flex;
+    list-style-type:none;
+    padding-top: 5px;
+    justify-content: space-around;
+    color: #FFBD59;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #FFBD59;
+}
+
+#txtheader{
+    margin-top: 25px;
+}
+
+#bttpecaja{
+    border: none;
+    background-color: #FFBD59;
+    color: black;
+    border-radius: 10%;
+    height: 60px;
+    width: 180px;
+    font-weight: 900;
+    font-size: x-large;
+    margin-top: 900px;
+    margin-left: 1600px;
+    position: relative;
+}
+
+#login{
+ color: #FFBD59;
+ font-size: 100px;
+ font-weight: 900;
+ padding-left: 750px;
+}
+body{
+    background-color: #FF914D;
+}
+
+#logogrande{
+    padding-left: 750px;
+}
+
+#inputlogin input{
+    display: block;
+    margin-left: 550px;
+    width: 715px;
+    height: 47px;
+    margin-top: 50px;
+    border-radius: 75px;
+    background-color: #FFBD59;
+}
+
+#bttlogin{
+    margin-left: 750px;
+    width: 315px;
+    height: 47px;
+    margin-top: 50px;
+    border-radius: 75px;
+    background-color: #FFBD59;
+    color: #FF914D;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#bttlogin:hover{
+    cursor: pointer;
+}
+
+#alogin{
+    margin-top: 10px;
+    margin-left: 790px;
+    font-weight: bold;
+}
+
+#cadastro{
+    color: #FFBD59;
+    font-size: 100px;
+    font-weight: 900;
+    padding-left: 650px;
+}
+
+#acadastro{
+    margin-top: 10px;
+    margin-left: 830px;
+    font-weight: bold;
+}
+
+#divcarttop{
+    height: 150px;
+    width: 614px;
+    margin-left: 600px;
+    margin-top: 50px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#txtcart{
+    color: #FFBD59;
+    font-size: 100px;
+    font-weight: 900;
+    padding-left: 650px;
+}
+
+#txtright{
+    padding-left: 470px;
+}
+
+#divcartvoucher{
+    padding-left: 600px;
+    font-weight: 600;
+}
+
+#cupom{
+    border: none;
+    background-color: #D9D9D9;
+    margin-top:  20px;
+    height: 30px;
+    width: 400px;
+}
+
+#divcartvoucher button{
+    width: 105px;
+    height: 30px;
+    background-color: #FFBD59;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+#aboutus{
+    color: #FFBD59;
+    font-size: 100px;
+    font-weight: 900;
+    padding-left: 500px;
+}
+
+#txtaboutus{
+    color: #FFBD59;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 770px;
+    padding-top: 30px;
+}
+#descaboutus{
+    color: #FFBD59;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#cardapio{
+    color: #FFBD59;
+    font-size: 100px;
+    font-weight: 900;
+    padding-left: 650px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;  
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#add:hover{
+    cursor: pointer;
+}
+
+#bttpecaja:hover{
+    cursor: pointer;
+}
